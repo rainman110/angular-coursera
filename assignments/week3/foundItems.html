@@ -1,7 +1,8 @@
 <div class="row">
     <ul>
         <li class="col-sm-6" ng-repeat="item in items">
-            {{item.name}}
+            ({{item.short_name}}) {{item.name}}
+            <div class="description">{{item.description}}</div>
             <button ng-click="removeItem({index: $index})">Don't want this one!</button>
         </li>
     </ul>

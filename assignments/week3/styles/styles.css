@@ -59,3 +59,8 @@ found-items {
 .error {
   color: red;
 }
+
+.description {
+  font-style: italic;
+  font-size: 0.75em;
+}
