@@ -1,0 +1,9 @@
+<div class="row">
+    <ul>
+        <li class="col-sm-6" ng-repeat="item in items">
+            {{item.name}}
+            <button ng-click="removeItem({index: $index})">Don't want this one!</button>
+        </li>
+    </ul>
+</div>
+<div class="error" ng-if="error !== ''">{{error}}</div>
