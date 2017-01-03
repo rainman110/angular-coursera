@@ -8,11 +8,7 @@ function CategoriesController(items) {
     
     var categories = this;
 
-    categories.items = [];
-
-    categories.$onInit = function () {
-        categories.items = items;
-    };
+    categories.items = items;
 }
 
 })();
