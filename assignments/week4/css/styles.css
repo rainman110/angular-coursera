@@ -3,11 +3,34 @@ body {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+li.items {
+    clear: left;
+    border-bottom: black dotted 1px;
+    position: relative;
+    max-width: 800px;
+    padding-bottom: 10px;
+    list-style-type: none;
 }
 
 .description {
     font-size: 0.75em;
+}
+
+.menuitem {
+    width: 75%;
+}
+
+.menuprice {
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 

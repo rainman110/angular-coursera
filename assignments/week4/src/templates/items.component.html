@@ -1,6 +1,9 @@
 <ul>
-    <li ng-repeat="item in $ctrl.items">
-        ({{item.short_name}}) {{item.name}}
-        <div class="description">{{item.description}}</div>
+    <li ng-repeat="item in $ctrl.items" class="items">
+        <div class="menuitem">
+            ({{item.short_name}}) {{item.name}}
+            <div class="description">{{item.description}}</div>
+        </div>
+        <div class="menuprice">{{item.price_large | currency}}</div>    
     </li>
 </ul>
