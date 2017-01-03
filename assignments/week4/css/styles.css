@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.75em;
+}
+
+
+a {
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.breadcrumbs {
+	background: #f2f2f2;
+	padding: 5px;
+}
+.breadcrumbs, .breadcrumbs > a {
+    color: cornflowerblue;
+}
+
+.breadcrumbs > a {
+    text-decoration: underline;
+}
+
+.breadcrumbs > a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.breadcrumbs > * {
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 0.9em;
+}
+
+div.breadcrumbs > *:first-child {
+  margin-left: 0px;
+}
